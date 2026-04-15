@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: conversao-temperatura-config
+  labels:
+    app: conversao-temperatura
+data:
+  APP_NAME: "Conversor de Temperatura 2.0"
+  APP_ENV: "production"
+  PORT: "8080"

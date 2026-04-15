@@ -1,24 +1,47 @@
-const convert = require('../convert')
-var expect  = require("chai").expect;
+const assert = require('assert');
+const convert = require('../convert');
 
-describe('Conversor de Temperatura', () => {
+const tests = [
+    {
+        name: 'Fahrenheit para Celsius',
+        run: () => {
+            assert.strictEqual(convert.fahrenheitCelsius(131), 55);
+        },
+    },
+    {
+        name: 'Celsius para Fahrenheit',
+        run: () => {
+            assert.strictEqual(convert.celsiusFahrenheit(55), 131);
+        },
+    },
+    {
+        name: 'Celsius para Kelvin',
+        run: () => {
+            const result = convert.convertTemperature(25, 'celsius', 'kelvin');
+            assert.strictEqual(result.output.value, 298.15);
+        },
+    },
+    {
+        name: 'Kelvin para Fahrenheit',
+        run: () => {
+            const result = convert.convertTemperature(273.15, 'kelvin', 'fahrenheit');
+            assert.strictEqual(result.output.value, 32);
+        },
+    },
+    {
+        name: 'Unidade invalida',
+        run: () => {
+            assert.throws(
+                () => convert.convertTemperature(10, 'metro', 'kelvin'),
+                /Unidade de origem invalida/,
+            );
+        },
+    },
+];
 
-    it('Deve converter corretamente Fahrenheit para Celsius', (done) => {
+tests.forEach((test) => {
+    test.run();
+    console.log(`OK - ${test.name}`);
+});
 
-      const resultado = convert.fahrenheitCelsius(131);
-
-      expect(resultado).to.equal(55);
-      done();
-  
-    });
-
-    it('Deve converter corretamente Celsius para Fahrenheit', (done) => {
-
-      const resultado = convert.celsiusFahrenheit(55);
-
-      expect(resultado).to.equal(131);
-      done();
-  
-    });    
-  
-  });
+console.log(`${tests.length} testes passaram`);
