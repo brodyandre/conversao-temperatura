@@ -1,0 +1,119 @@
+<svg width="1920" height="1200" viewBox="0 0 1920 1200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Preview da aplicacao Conversor de Temperatura 2.0</title>
+  <desc id="desc">Tela principal da aplicacao com formulario de conversao, resultado e historico.</desc>
+  <defs>
+    <filter id="screen-shadow" x="100" y="78" width="1720" height="1044" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="30" stdDeviation="36" flood-color="#17202A" flood-opacity="0.18"/>
+    </filter>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#17202A" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="browser-top" x1="160" y1="110" x2="1760" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF7F5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1200" fill="#EAF1F0"/>
+  <rect x="124" y="92" width="1672" height="1016" rx="32" fill="#FFFFFF" filter="url(#screen-shadow)"/>
+  <rect x="124" y="92" width="1672" height="88" rx="32" fill="url(#browser-top)"/>
+  <path d="M124 148H1796V180H124V148Z" fill="url(#browser-top)"/>
+  <circle cx="178" cy="136" r="13" fill="#E96F3C"/>
+  <circle cx="221" cy="136" r="13" fill="#F4C95D"/>
+  <circle cx="264" cy="136" r="13" fill="#087F7A"/>
+  <rect x="332" y="117" width="806" height="38" rx="19" fill="#FFFFFF" stroke="#D7E0DF" stroke-width="2"/>
+  <text x="370" y="142" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">localhost:30000</text>
+
+  <rect x="124" y="180" width="1672" height="928" fill="#F4F7F6"/>
+
+  <g transform="translate(252 240)">
+    <rect x="566" y="0" width="172" height="44" rx="8" fill="#EEF7F5"/>
+    <text x="652" y="29" text-anchor="middle" fill="#05615D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">CONVERSAO RAPIDA</text>
+    <rect x="756" y="0" width="116" height="44" rx="8" fill="#FFF3ED"/>
+    <text x="814" y="29" text-anchor="middle" fill="#9B3E18" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">production</text>
+
+    <text x="704" y="132" text-anchor="middle" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="900">Conversor de Temperatura 2.0</text>
+    <text x="704" y="190" text-anchor="middle" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="500">Transforme Celsius, Fahrenheit e Kelvin em segundos, com historico para acompanhar cada calculo.</text>
+
+    <g transform="translate(0 266)">
+      <g filter="url(#card-shadow)">
+        <rect x="0" y="0" width="780" height="398" rx="8" fill="#FFFFFF" stroke="#D7E0DF" stroke-width="2"/>
+      </g>
+      <text x="44" y="58" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Nova conversao</text>
+      <text x="654" y="58" text-anchor="end" fill="#05615D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Temperatura</text>
+      <line x1="44" y1="86" x2="736" y2="86" stroke="#D7E0DF" stroke-width="2"/>
+
+      <text x="44" y="138" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Valor</text>
+      <rect x="44" y="156" width="692" height="62" rx="8" fill="#FFFFFF" stroke="#D7E0DF" stroke-width="2"/>
+      <text x="68" y="196" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">25</text>
+
+      <text x="44" y="264" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">De</text>
+      <rect x="44" y="282" width="328" height="62" rx="8" fill="#FFFFFF" stroke="#D7E0DF" stroke-width="2"/>
+      <text x="68" y="322" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Celsius</text>
+      <path d="M334 306L350 322L366 306" stroke="#617080" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <text x="408" y="264" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Para</text>
+      <rect x="408" y="282" width="328" height="62" rx="8" fill="#FFFFFF" stroke="#D7E0DF" stroke-width="2"/>
+      <text x="432" y="322" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Fahrenheit</text>
+      <path d="M698 306L714 322L730 306" stroke="#617080" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <rect x="44" y="368" width="692" height="66" rx="8" fill="#087F7A"/>
+      <text x="390" y="410" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">Converter agora</text>
+    </g>
+
+    <g transform="translate(0 700)">
+      <g filter="url(#card-shadow)">
+        <rect x="0" y="0" width="780" height="196" rx="8" fill="#FFFFFF" stroke="#D7E0DF" stroke-width="2"/>
+      </g>
+      <text x="44" y="52" fill="#05615D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">RESULTADO</text>
+      <text x="44" y="122" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="900">77 &#176;F</text>
+      <text x="44" y="164" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">25 &#176;C em Fahrenheit</text>
+    </g>
+
+    <g transform="translate(836 266)">
+      <g filter="url(#card-shadow)">
+        <rect x="0" y="0" width="456" height="630" rx="8" fill="#FFFFFF" stroke="#D7E0DF" stroke-width="2"/>
+      </g>
+      <text x="32" y="52" fill="#05615D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">HISTORICO</text>
+      <text x="32" y="94" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="900">Ultimas conversoes</text>
+      <rect x="350" y="34" width="62" height="38" rx="8" fill="#EEF7F5"/>
+      <text x="381" y="60" text-anchor="middle" fill="#05615D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="900">4/6</text>
+
+      <g transform="translate(32 140)">
+        <text x="0" y="0" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">15:42:08</text>
+        <text x="0" y="38" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">25 &#176;C para 77 &#176;F</text>
+        <text x="0" y="72" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Celsius para Fahrenheit</text>
+        <line x1="0" y1="102" x2="392" y2="102" stroke="#D7E0DF" stroke-width="2"/>
+      </g>
+
+      <g transform="translate(32 270)">
+        <text x="0" y="0" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">15:41:50</text>
+        <text x="0" y="38" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">100 &#176;C para 373,15 K</text>
+        <text x="0" y="72" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Celsius para Kelvin</text>
+        <line x1="0" y1="102" x2="392" y2="102" stroke="#D7E0DF" stroke-width="2"/>
+      </g>
+
+      <g transform="translate(32 400)">
+        <text x="0" y="0" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">15:41:21</text>
+        <text x="0" y="38" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">32 &#176;F para 0 &#176;C</text>
+        <text x="0" y="72" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Fahrenheit para Celsius</text>
+        <line x1="0" y1="102" x2="392" y2="102" stroke="#D7E0DF" stroke-width="2"/>
+      </g>
+
+      <g transform="translate(32 530)">
+        <text x="0" y="0" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">15:40:58</text>
+        <text x="0" y="38" fill="#17202A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">300 K para 26,85 &#176;C</text>
+        <text x="0" y="72" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Kelvin para Celsius</text>
+      </g>
+    </g>
+
+    <g transform="translate(170 952)">
+      <rect x="0" y="0" width="428" height="44" rx="8" fill="#FFFFFF" fill-opacity="0.72" stroke="#D7E0DF" stroke-width="2"/>
+      <text x="214" y="29" text-anchor="middle" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Aplicacao: <tspan fill="#17202A" font-weight="900">Conversor de Temperatura 2.0</tspan></text>
+      <rect x="448" y="0" width="230" height="44" rx="8" fill="#FFFFFF" fill-opacity="0.72" stroke="#D7E0DF" stroke-width="2"/>
+      <text x="563" y="29" text-anchor="middle" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Ambiente: <tspan fill="#17202A" font-weight="900">production</tspan></text>
+      <rect x="698" y="0" width="236" height="44" rx="8" fill="#FFFFFF" fill-opacity="0.72" stroke="#D7E0DF" stroke-width="2"/>
+      <text x="816" y="29" text-anchor="middle" fill="#617080" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Host: <tspan fill="#17202A" font-weight="900">kind-pod</tspan></text>
+    </g>
+  </g>
+</svg>

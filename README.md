@@ -4,6 +4,10 @@ Aplicação web simples e containerizada para conversão de temperaturas entre C
 
 O projeto foi desenvolvido como um MVP em Node.js com Express e EJS, com foco em simplicidade, boa apresentação visual e facilidade de execução em ambientes locais, containers Docker e Kubernetes.
 
+## Preview da Aplicação
+
+![Preview da aplicação Conversor de Temperatura 2.0](docs/assets/conversao-temperatura-preview.svg)
+
 ## Visão Geral
 
 O **Conversor de Temperatura 2.0** permite realizar conversões de temperatura por meio de uma interface web responsiva e também por uma API HTTP.
